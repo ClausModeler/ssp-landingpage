@@ -1,0 +1,47 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #0070f3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0051ad;
+}
+
+.profile-img {
+    width: 800px;          /* Ajusta el ancho a tu gusto */
+    height: auto;          /* Mantiene la proporción */
+    border-radius: 10%;    /* Opcional: la hace circular si es cuadrada */
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Un toque de sombra */
+
+    /*border: 3px solid #0070f3; /* Borde de 3px, sólido, color azul */
+    /*filter: grayscale(100%); /* Convierte la imagen a blanco y negro */
+    /* filter: sepia(100%); */ /* Aplica un tono sepia */
+    /* filter: blur(2px); */ /* Desenfoca la imagen */
+    /*float: left; /* La imagen se alinea a la izquierda, el texto fluye a la derecha */
+    /*margin-right: 15px; /* Añade espacio entre la imagen y el texto */
+    
+}
