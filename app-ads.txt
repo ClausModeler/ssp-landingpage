@@ -1,0 +1,3 @@
+google.com, pub-8508764870738527, DIRECT, f08c47fec0942fa0
+ironsrc.com, 25c75c21d, DIRECT
+unity.com, 5777419, DIRECT
